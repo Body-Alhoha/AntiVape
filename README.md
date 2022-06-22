@@ -1,5 +1,6 @@
 # AntiVape
-Block vape v4 injection, vape lite coming soon:tm:
+Block vape v4 and vape lite injections,
++ with lots of random injection clients
 
 
 How it works:
