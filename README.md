@@ -1,6 +1,8 @@
 # AntiVape
-Block vape v4 and vape lite injections,
-+ with lots of random injection clients
+Can block
++ Vape v4 (2 check)
++ Vape lite (1 check)
++ Any clients that use JNI hooking with GetJavaVMs in C++
 
 
 How it works:
