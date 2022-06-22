@@ -1,8 +1,13 @@
 ﻿  dllmain.cpp
   md5.cpp
 C:\Users\ilyas\source\repos\AntiVape\AntiVape\md5.cpp(106,21): warning C4267: 'argument' : conversion de 'size_t' en 'MD5::size_type', perte possible de données
+  buffer.c
+  hde32.c
+  hde64.c
+  hook.c
+  trampoline.c
   Génération de code en cours
   Previous IPDB not found, fall back to full compilation.
-  All 101 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  All 131 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Fin de la génération du code
   AntiVape.vcxproj -> C:\Users\ilyas\source\repos\AntiVape\x64\Release\AntiVape.dll

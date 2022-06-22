@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Fichiers d%27en-tête\hook">
+      <UniqueIdentifier>{5f3a2a8e-5608-4f80-b5d2-64b9f666272e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\hook\hde">
+      <UniqueIdentifier>{7bfc6dd2-ac5b-417f-967a-acf182d05c65}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -24,6 +30,30 @@
     <ClInclude Include="md5.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
+    <ClInclude Include="hook\buffer.h">
+      <Filter>Fichiers d%27en-tête\hook</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\MinHook.h">
+      <Filter>Fichiers d%27en-tête\hook</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\trampoline.h">
+      <Filter>Fichiers d%27en-tête\hook</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\hde\hde32.h">
+      <Filter>Fichiers d%27en-tête\hook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\hde\hde64.h">
+      <Filter>Fichiers d%27en-tête\hook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\hde\pstdint.h">
+      <Filter>Fichiers d%27en-tête\hook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\hde\table32.h">
+      <Filter>Fichiers d%27en-tête\hook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\hde\table64.h">
+      <Filter>Fichiers d%27en-tête\hook\hde</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -31,6 +61,21 @@
     </ClCompile>
     <ClCompile Include="md5.cpp">
       <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="hook\buffer.c">
+      <Filter>Fichiers d%27en-tête\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="hook\hook.c">
+      <Filter>Fichiers d%27en-tête\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="hook\trampoline.c">
+      <Filter>Fichiers d%27en-tête\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="hook\hde\hde32.c">
+      <Filter>Fichiers d%27en-tête\hook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="hook\hde\hde64.c">
+      <Filter>Fichiers d%27en-tête\hook\hde</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
