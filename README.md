@@ -1,10 +1,3 @@
 # AntiVape
-Can block
-+ Vape v4 (2 check)
-+ Vape lite (1 check)
-+ Any clients that use JNI hooking with GetJavaVMs in C++
-
-
-How it works:
-
-Hooking JNI's AttachCurrentThread then preventing it
+A really and easily bypassable way of preventing vape lite && vape v4.
+Works by hooking JNI_GetCreatedJavaVMs
