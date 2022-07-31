@@ -1,9 +1,10 @@
 # AntiVape
-Block vape v4 injection, vape lite coming soon:tm:
+Can block
++ Vape v4 (2 check)
++ Vape lite (1 check)
++ Any clients that use JNI hooking with GetJavaVMs in C++
 
 
 How it works:
 
-Hooking JVMTI class file load hook
-  -> check if class name starts with a/ (vape package name)
-    -> if yes, replace content by random thing, that will make the game crash
+Hooking JNI's AttachCurrentThread then preventing it
