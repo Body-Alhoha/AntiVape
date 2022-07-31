@@ -27,9 +27,6 @@
     <ClInclude Include="pch.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="md5.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
     <ClInclude Include="hook\buffer.h">
       <Filter>Fichiers d%27en-tête\hook</Filter>
     </ClInclude>
@@ -57,9 +54,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="md5.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
     <ClCompile Include="hook\buffer.c">

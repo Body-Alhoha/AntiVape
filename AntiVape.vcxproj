@@ -151,7 +151,6 @@
     <ClInclude Include="hook\hde\table64.h" />
     <ClInclude Include="hook\MinHook.h" />
     <ClInclude Include="hook\trampoline.h" />
-    <ClInclude Include="md5.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
@@ -161,7 +160,6 @@
     <ClCompile Include="hook\hde\hde64.c" />
     <ClCompile Include="hook\hook.c" />
     <ClCompile Include="hook\trampoline.c" />
-    <ClCompile Include="md5.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
